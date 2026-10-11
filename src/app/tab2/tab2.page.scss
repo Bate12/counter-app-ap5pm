@@ -1,6 +1,7 @@
 .history-header,
 ion-list,
-.state-message {
+.state-message,
+.toolbar-tools {
   max-width: 40rem;
   margin: 1rem auto;
 }
@@ -10,6 +11,17 @@ ion-list,
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.toolbar-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sort-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
 }
 
 .state-message {
